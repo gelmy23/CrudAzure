@@ -5,7 +5,7 @@ $nombre_bd = "utpdabase";
 
 try {
 	$bd = new PDO (
-		'mysql:host=myserver2190.mysql.database.azure.com;
+		'mysql:host=utpserver23.mysql.database.azure.com;
 		dbname='.$nombre_bd,
 		$usuario,
 		$contrasena,
